@@ -25,7 +25,7 @@ const withCurrency = (BaseComponent) => (
             })
         }
 
-        handleOptionSelect = () => {
+        handleOptionSelect = (evt) => {
             const userValue = evt.target.value
             this.setState(() => {
                 return{
